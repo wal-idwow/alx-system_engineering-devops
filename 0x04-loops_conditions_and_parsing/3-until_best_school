@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+initial="0"
+until [ $initial -eq 10 ]
+do
+  echo "Best School"
+  initial=$((initial+1))
+done

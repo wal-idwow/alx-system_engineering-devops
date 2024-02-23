@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#this script is displaying
+#the content of the current directory, in alist format
+
+for content in *
+do
+	echo "$content" | cut -d "-" -f2-
+done
